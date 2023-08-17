@@ -201,7 +201,7 @@ form {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    width: 400px;
+    width: 600px;
     height: auto;
     padding: 20px;
     margin: 0 auto;
@@ -214,6 +214,17 @@ form .campos {
     align-items: center;
     justify-content: center;
     color: #0E3A5F;
+}
+
+label {
+    font-weight: 800;
+    font-size: 18px;
+}
+.button {
+    display: flex;
+    justify-content: center; 
+    margin-top: 15px;   
+    
 }
 
 .form_1 .campos_1 {
@@ -234,18 +245,27 @@ form .campos {
     padding: 0.3rem;
     border-radius: 5px;
 }
-#enviar_form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .form_1 .campos_1 .text_camp {
     color: #0E3A5F;
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: -30px;
 }
 .campos_1 {
     text-align: center;
     color: #0E3A5F;
+}
+
+.tex_cam_2 {
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: -50px;
+}
+textarea {
+    margin-top: -25px;
 }
 
 /*FOOTER*/
